@@ -17,7 +17,7 @@
 
   <!-- SHAHADAT CHAT BOT -->
   <span style="font-size: 32px; font-weight: 700; color:#00A8FF;">
-    SHAHADAT CHAT BOT
+    SAMIUL CHAT BOT
   </span>
   <br>
 
