@@ -73,7 +73,7 @@ module.exports.run = async function ({ api, event, args }) {
 
   } catch (err) {
     return api.sendMessage(
-      "API Error call Boss SAHU 😣: " + err.message,
+      "API Error call Boss Šãmîuł Hãquè 😣: " + err.message,
       event.threadID,
       event.messageID
     );
