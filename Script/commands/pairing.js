@@ -80,6 +80,6 @@ module.exports.run = async function ({ event, api, Users, Threads }) {
     );
 
   } catch (e) {
-    return api.sendMessage("API Error Call Boss SAHU", event.threadID, event.messageID);
+    return api.sendMessage("API Error Call Boss Šãmîuł Hãquè", event.threadID, event.messageID);
   }
 };
