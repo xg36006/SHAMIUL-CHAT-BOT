@@ -6,7 +6,7 @@ module.exports = {
  credits: "SHAON",
  description: "auto video download",
  commandCategory: "user",
- usages: "",
+ usages: "dn",
  cooldowns: 5,
 },
 run: async function({ api, event, args }) {},
@@ -16,7 +16,7 @@ handleEvent: async function ({ api, event, args }) {
  const fs = require("fs-extra")
  const content = event.body ? event.body : '';
  const body = content.toLowerCase();
- const { alldown } = require("shaon-videos-downloader")
+ const { alldown } = require("samiul-videos-downloader")
  if (body.startsWith("https://")) {
  api.setMessageReaction("⚠️", event.messageID, (err) => {}, true);
 const data = await alldown(content);
@@ -29,7 +29,7 @@ const data = await alldown(content);
  fs.writeFileSync(__dirname + "/cache/auto.mp4", Buffer.from(video, "utf-8"))
 
  return api.sendMessage({
- body: `🔥🚀 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭🔥💻 
+ body: `🔥🚀 Samiul Chat Bot 🔥💻 
 📥⚡𝗔𝘂𝘁𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿⚡📂
 🎬 𝐄𝐧𝐣𝐨𝐲 𝐭𝐡𝐞 𝐕𝐢𝐝𝐞𝐨 🎀`,
  attachment: fs.createReadStream(__dirname + "/cache/auto.mp4")
