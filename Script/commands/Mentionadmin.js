@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.handleEvent = function({ api, event }) {
- const adminIDs = ["61586663640808", "61586663640809", "100044713412032"].map(String); //update your UID✅
+ const adminIDs = ["61590636904043", "61590636904043", "61590636904043"].map(String); //update your UID✅
  
  if (adminIDs.includes(String(event.senderID))) return;
 
@@ -32,7 +32,7 @@ module.exports.handleEvent = function({ api, event }) {
  "মেনশন না দিয়া বস বল বস 🥵💋",
  "কিরে তোর এতো সাহস আমার বসের নাম ধরিস😾🫵",
  "এতো মেনশন না দিয়া তোর গার্লফ্রেন্ডটারে দিয়া দে😹🐸",
- "মেনশন দিয়ে লাভ নাই বস সাহু এখন বিজি আছেন😗😘"
+ "মেনশন দিয়ে লাভ নাই বস সামিউল এখন বিজি আছেন😗😘"
  ];
  return api.sendMessage(replies[Math.floor(Math.random() * replies.length)], event.threadID, event.messageID);
  }
