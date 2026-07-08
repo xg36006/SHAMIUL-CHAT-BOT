@@ -34,7 +34,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 
  const msg = `╭⭓ ⪩ 𝐁𝐎𝐓𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⪨
 │
-├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭
+├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : Šhãmîuł Chãt Bøt
 ├─ ☢️ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${config.PREFIX}
 ├─ ♻️ 𝗣𝗿𝗲𝗳𝗶𝘅 𝗕𝗼𝘅 : ${prefix}
 ├─ 🔶 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 : ${commands.size}
@@ -44,13 +44,13 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 
 ╭⭓ ⪩ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ⪨
 │
-├─ 👑 𝗡𝗮𝗺𝗲 : 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦
+├─ 👑 𝗡𝗮𝗺𝗲 : Šhãmîuł Hãqùe
 ├─ 📲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
-│ facebook.com/61575698041722
+│ https://www.facebook.com/samiul.haque.utso
 ├─ 💌 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
-│ m.me/61575698041722
+│ m.me/samiul.haque.utso
 ├─ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
-│ wa.me/+8801882333052
+│ wa.me/+8801705327418
 │
 ╰───────⭓
 
@@ -62,13 +62,13 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 ╰───────⭓
 
 ❤️ 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 🌺
- 😍─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭😘`;
+ 😍Šhãmîuł Chãt Bøt😘`;
 
  const imgLinks = [
- "https://i.imgur.com/zqsuJnX.jpeg",
- "https://i.imgur.com/sxSn1K3.jpeg",
- "https://i.imgur.com/wu0iDqS.jpeg",
- "https://i.imgur.com/Huz3nAE.png"
+ "https://i.postimg.cc/8zM3zHyM/IMG-5961.avif",
+ "https://i.postimg.cc/8zM3zHyM/IMG-5961.avif",
+ "https://i.postimg.cc/8zM3zHyM/IMG-5961.avif",
+ "https://i.postimg.cc/8zM3zHyM/IMG-5961.avif"
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
